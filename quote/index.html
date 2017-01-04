@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Quote Generator</title>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+
+	<script src="quotes.json"></script>
+	<script>
+		function getNewQuote() {
+			var randQuote = Math.floor(Math.random()*quotes.length);
+			console.log("quotes length=" + quotes.length);
+			console.log(randQuote);
+			return quotes[randQuote];
+		}
+		$(document).ready(function(){
+		    $("#newQuoteBtn").click(function(){
+		    	var newQuote = getNewQuote();
+		        $("#quote").text(newQuote.quote);
+		        $("#author").text(newQuote.author);
+		    });
+		});
+	</script>
+
+	<style>
+	h1 {
+		font-family: 'Playfair Display', serif;
+		font-size: 60px;
+	}
+
+	h2,p,blockquote {
+		font-family: 'Playfair Display', serif;
+	}
+
+	button {
+		background-color: #AAA; /* Green */
+		border: none;
+		color: white;
+		padding: 15px 32px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 16px;
+		font-family: 'Playfair Display', serif;
+	}
+	</style>
+
+  </head>
+  <body class="container">
+    <div class="row text-center" id="titleBar">
+      <h1>Quote Generator</h1>
+ 	</div>
+
+    <div class="row" id="quoteBar">
+      <blockquote class="text-center">
+      <p id="quote">Quote</p>
+      <footer id="author">Author</footer>
+      </blockquote>
+    </div>
+
+    <div class="row text-center" id="buttonBar">
+    	<!-- Twitter Button Placeholder -->
+    	<button type="button">Tweet</button>
+    	<button id="newQuoteBtn" type="button">New Quote</button>
+    </div>
+
+  </body>
+</html>
