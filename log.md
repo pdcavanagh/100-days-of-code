@@ -6,7 +6,8 @@
 
 **Thoughts:** Basic site is build with a quick styling. Randomly selecting a quote from a manually created JSON file. This could easily be extended to a database or API call for more quotes. Tweet button put in as placeholder. Bootstrap is overkill for this project, but could come in handy for a more complex buildout of the project. 
 
-**Link to work:** [Quote Generator](/quote/index.html) 
+**Link to work:** [Quote Generator](/quote/index.html)
+                  [Codepen](http://codepen.io/pdcavanagh/pen/MJWqWy) 
 
 <!-- 
 ### Day 0: February 30, 2016 (Example 1)
