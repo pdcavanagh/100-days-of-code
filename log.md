@@ -2,11 +2,11 @@
 
 ### Day 1: January 3, 2017
 
-**Today's Progress**: 
+**Today's Progress**: Created quote generator project site using HTML, CSS, Javascript, jQuery, and Bootstrap. 
 
-**Thoughts:** 
+**Thoughts:** Basic site is build with a quick styling. Randomly selecting a quote from a manually created JSON file. This could easily be extended to a database or API call for more quotes. Tweet button put in as placeholder. Bootstrap is overkill for this project, but could come in handy for a more complex buildout of the project. 
 
-**Link to work:** 
+**Link to work:** [Quote Generator](/quote/index.html) 
 
 <!-- 
 ### Day 0: February 30, 2016 (Example 1)
