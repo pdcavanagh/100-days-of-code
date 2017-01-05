@@ -9,6 +9,14 @@
 **Link to work:** [Quote Generator](/quote/index.html)
                   [Codepen](http://codepen.io/pdcavanagh/pen/MJWqWy) 
 
+### Day 2: January 4, 2017
+
+**Today's Progress**: Continued work on the quote generator, implemented tweet button.
+
+**Thoughts:** It amazes me how quickly the site was put together yesterday and I was able to have basic functionality working, but today, I spent the majority of my time struggling with Twitter's widget js file. It seems that somewhere in the loading of that script, the DOM no longer had an ID I created to reference the Twitter Intent link with my quote. This was updated through jQuery. Long story short, I don't really like the asthetic of the Twitter tweet buttons and ultimately scrapped the widget js file. Instead I plan to implement my own button styling. It still bugs me that I haven't found out why the widget js file was causing my getElementById to return null, but I'd have to dig into that another time.
+
+**Link to work:** [Quote Generator](/quote/index.html)
+                  [Codepen](http://codepen.io/pdcavanagh/pen/MJWqWy) 
 <!-- 
 ### Day 0: February 30, 2016 (Example 1)
 ##### (delete me or comment me out)

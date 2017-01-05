@@ -30,6 +30,7 @@
 		    	var newQuote = getNewQuote();
 		        $("#quote").text(newQuote.quote);
 		        $("#author").text(newQuote.author);
+		        document.getElementById('tweetQuote').setAttribute("href", "https://twitter.com/intent/tweet?text=" + newQuote.quote + ' -' + newQuote.author);
 		    });
 		});
 	</script>
@@ -45,7 +46,7 @@
 	}
 
 	button {
-		background-color: #AAA; /* Green */
+		background-color: #AAA;
 		border: none;
 		color: white;
 		padding: 15px 32px;
@@ -71,10 +72,11 @@
     </div>
 
     <div class="row text-center" id="buttonBar">
-    	<!-- Twitter Button Placeholder -->
-    	<button type="button">Tweet</button>
+    	<!-- Twitter Button -->
+    	<button type="button">
+    	<a id="tweetQuote" class="button" href="" target="_blank">Tweet</a>
+    	</button>
     	<button id="newQuoteBtn" type="button">New Quote</button>
     </div>
-
   </body>
 </html>
