@@ -13,7 +13,16 @@
 
 **Today's Progress**: Continued work on the quote generator, implemented tweet button.
 
-**Thoughts:** It amazes me how quickly the site was put together yesterday and I was able to have basic functionality working, but today, I spent the majority of my time struggling with Twitter's widget js file. It seems that somewhere in the loading of that script, the DOM no longer had an ID I created to reference the Twitter Intent link with my quote. This was updated through jQuery. Long story short, I don't really like the asthetic of the Twitter tweet buttons and ultimately scrapped the widget js file. Instead I plan to implement my own button styling. It still bugs me that I haven't found out why the widget js file was causing my getElementById to return null, but I'd have to dig into that another time.
+**Thoughts:** It amazes me how quickly the site was put together yesterday and I was able to have basic functionality working, but today, I spent the majority of my time struggling with Twitter's widget js file. It seems that somewhere in the loading of that script, the DOM no longer had an ID I created to reference the Twitter Intent link with my quote. This was updated through jQuery. Long story short, I don't really like the asthetic of the Twitter tweet buttons and ultimately scrapped the widget js file. Instead I plan to implement my own button styling. It still bugs me that I haven't found out why the widget js file was causing my getElementById to return null, but I'll have to dig into that another time.
+
+**Link to work:** [Quote Generator](/quote/index.html)
+                  [Codepen](http://codepen.io/pdcavanagh/pen/MJWqWy) 
+
+### Day 3: January 5, 2017
+
+**Today's Progress**: Finished quote generator project. Implemented Twitter button, default quote on loading, added footer, rearranged button stacking in mobile view. 
+
+**Thoughts:** Today was a refresher on some subtle nuiances of Bootstrap and a reminder that things change between version updates. I was attempting to change the stacking of the buttons for the Tweet and New Quote in the mobile view using the push and pull classes of Bootstrap, but was using an old syntax. I chased that bug around for awhile until I came across the new syntax and a light bulb went off. Coding late at night can have that effect sometimes. The project is completed and fulfills the user stories and the bonus tweet button. It is a simple presentation in terms of styling, but I wanted the words to speak for themselves. I do love Google fonts, though. That's all for tonight. 
 
 **Link to work:** [Quote Generator](/quote/index.html)
                   [Codepen](http://codepen.io/pdcavanagh/pen/MJWqWy) 
