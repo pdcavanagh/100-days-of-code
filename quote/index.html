@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Quote Generator</title>
+    <title>Words of Wisdom</title>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
@@ -55,7 +55,7 @@
 	}
 
 	button, .button {
-		background-color: #AAA;
+		background-color: #777;
 		border: none;
 		color: white;
 		padding: 15px 32px;
@@ -67,7 +67,7 @@
 	}
 
 	a:hover, button:hover {
-		color: #339966;
+		color: #33AA66;
 	}
 	</style>
 
@@ -75,7 +75,7 @@
   <body class="container">
   	<div id="mainQuote">
 	    <div class="row text-center" id="titleBar">
-	      <h1>Quote Generator</h1>
+	      <h1>Words of Wisdom</h1>
 	 		</div>
 
 	    <div class="row" id="quoteBar">
@@ -86,14 +86,14 @@
 	    </div>
 
 	    <div class="row text-center" id="buttonBar">
-	      <div class="col-sm-6 center-block">
-	    	<!-- Twitter Button -->
-	    	<a id="tweetQuote" class="button" href="" target="_blank">
-	    	  <i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
-	    	</a>
-	      </div>
-	      <div class="col-sm-6 center-block">
+	      <div class="col-sm-6 col-sm-push-6 center-block">
 	    		<button id="newQuoteBtn" type="button">New Quote</button>
+	      </div>
+	    	<!-- Twitter Button -->
+	      <div class="col-sm-6  col-sm-pull-6 center-block">
+		    	<a id="tweetQuote" class="button" href="" target="_blank">
+		    	  <i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
+		    	</a>
 	      </div>
 	    </div>
 	  </div>
