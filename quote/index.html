@@ -17,6 +17,9 @@
 
 	<link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
 
+	<!-- Font Awesome CDN -->
+	<script src="https://use.fontawesome.com/eaebdf8a0c.js"></script>
+
 	<script src="quotes.json"></script>
 	<script>
 		function getNewQuote() {
@@ -28,24 +31,30 @@
 		$(document).ready(function(){
 		    $("#newQuoteBtn").click(function(){
 		    	var newQuote = getNewQuote();
-		        $("#quote").text(newQuote.quote);
-		        $("#author").text(newQuote.author);
-		        document.getElementById('tweetQuote').setAttribute("href", "https://twitter.com/intent/tweet?text=" + newQuote.quote + ' -' + newQuote.author);
+	        $("#quote").text(newQuote.quote);
+	        $("#author").text(newQuote.author);
+	        document.getElementById('tweetQuote').setAttribute("href", "https://twitter.com/intent/tweet?text=" + newQuote.quote + ' -' + newQuote.author);
 		    });
 		});
 	</script>
 
 	<style>
+	#mainQuote {
+		padding-top: 60px;
+		padding-bottom: 120px;
+	}
+
 	h1 {
 		font-family: 'Playfair Display', serif;
 		font-size: 60px;
+		padding: 60px;
 	}
 
 	h2,p,blockquote {
 		font-family: 'Playfair Display', serif;
 	}
 
-	button {
+	button, .button {
 		background-color: #AAA;
 		border: none;
 		color: white;
@@ -56,27 +65,42 @@
 		font-size: 16px;
 		font-family: 'Playfair Display', serif;
 	}
+
+	a:hover, button:hover {
+		color: #339966;
+	}
 	</style>
 
   </head>
   <body class="container">
-    <div class="row text-center" id="titleBar">
-      <h1>Quote Generator</h1>
- 	</div>
+  	<div id="mainQuote">
+	    <div class="row text-center" id="titleBar">
+	      <h1>Quote Generator</h1>
+	 		</div>
 
-    <div class="row" id="quoteBar">
-      <blockquote class="text-center">
-      <p id="quote">Quote</p>
-      <footer id="author">Author</footer>
-      </blockquote>
-    </div>
+	    <div class="row" id="quoteBar">
+	      <blockquote class="text-center">
+	      <p id="quote">To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment.</p>
+	      <footer id="author">Ralph Waldo Emerson</footer>
+	      </blockquote>
+	    </div>
 
-    <div class="row text-center" id="buttonBar">
-    	<!-- Twitter Button -->
-    	<button type="button">
-    	<a id="tweetQuote" class="button" href="" target="_blank">Tweet</a>
-    	</button>
-    	<button id="newQuoteBtn" type="button">New Quote</button>
-    </div>
+	    <div class="row text-center" id="buttonBar">
+	      <div class="col-sm-6 center-block">
+	    	<!-- Twitter Button -->
+	    	<a id="tweetQuote" class="button" href="" target="_blank">
+	    	  <i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
+	    	</a>
+	      </div>
+	      <div class="col-sm-6 center-block">
+	    		<button id="newQuoteBtn" type="button">New Quote</button>
+	      </div>
+	    </div>
+	  </div>
+		<footer id="mainFooter">
+		  <div class="row text-center">
+		    <p>Coded with &#9825 and <i class="fa fa-coffee" aria-hidden="true"></i>, PDC, 2017</p>
+		  </div>
+		</footer>
   </body>
 </html>
