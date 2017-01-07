@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Weather Watcher</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+
+  </head>
+  <body>
+	  <div>
+	  	<p id="demo"></p>
+	  	<h1 id="city"></h1>
+	  	<h1 id="temperature"></h1>
+	  	<h1 id="conditions"></h1>
+
+	  </div>
+	  <!-- Location -->
+	  <!-- Temperature -->
+	  <!-- Conditions -->
+		<script>
+			var x = document.getElementById("demo");
+			var city = document.getElementById("city");
+			function getLocation() {
+			    if (navigator.geolocation) {
+			        navigator.geolocation.getCurrentPosition(showPosition);
+			    } else {
+			        x.innerHTML = "Geolocation is not supported by this browser.";
+			    }
+			}
+			function showPosition(position) {
+			    var weatherAPI = "http://api.openweathermap.org/data/2.5/weather?lat=" + position.coords.latitude +"&lon=" + position.coords.longitude + "&appid=1a8e1ed196d5f1aa3302836a2802e271";
+					$.getJSON( weatherAPI, function( data ) {
+
+					  var tempF = data.main.temp * (9/5) - 459.67;
+
+/*
+					  var items = [];
+					  $.each( data, function( key, val ) {
+					    items.push( "<li id='" + key + "'>" + val + "</li>" );
+					  });
+					 
+					  $( "<ul/>", {
+					    "class": "my-new-list",
+					    html: items.join( "" )
+					  }).appendTo( "body" );
+*/
+					  city.innerHTML = data.name;
+					  temperature.innerHTML = tempF.toFixed() + " F";
+					  conditions.innerHTML = data.weather['description'];
+					});
+
+			    x.innerHTML = "Latitude: " + position.coords.latitude + 
+			    "<br>Longitude: " + position.coords.longitude; 
+			}
+			getLocation();
+		</script>
+  </body>
+  </html>
+
+  <!-- weather api key 1a8e1ed196d5f1aa3302836a2802e271 -->
+<!--
+{  
+   "coord":{  
+      "lon":-86.16,
+      "lat":39.77
+   },
+   "weather":[  
+      {  
+         "id":804,
+         "main":"Clouds",
+         "description":"overcast clouds",
+         "icon":"04n"
+      }
+   ],
+   "base":"stations",
+   "main":{  
+      "temp":258.48,
+      "pressure":1029,
+      "humidity":65,
+      "temp_min":257.15,
+      "temp_max":259.15
+   },
+   "visibility":16093,
+   "wind":{  
+      "speed":3.6,
+      "deg":300
+   },
+   "clouds":{  
+      "all":90
+   },
+   "dt":1483764900,
+   "sys":{  
+      "type":1,
+      "id":1035,
+      "message":0.1845,
+      "country":"US",
+      "sunrise":1483794352,
+      "sunset":1483828605
+   },
+   "id":4259418,
+   "name":"Indianapolis",
+   "cod":200
+}
+-->
