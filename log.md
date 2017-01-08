@@ -26,6 +26,20 @@
 
 **Link to work:** [Quote Generator](/quote/index.html)
                   [Codepen](http://codepen.io/pdcavanagh/pen/MJWqWy) 
+
+### Day 4: January 6, 2017
+
+**Today's Progress**: Began a current weather app. Implemented API calls to HTML geolocation and OpenWeatherMap. Displays user's city and the current temp. 
+
+**Thoughts:** It's always fun to start something new. After a long day, I dove into this project becuase it had a couple straight forward user stories and I could immediately get to work. I quickly created the user account with OpenWeatherMap and was able to skim over the API calls and returned JSON data to see what I would be working with as far as my data source. Next, I implemented the geolocation call and came across some interesting articles on best practices for requesting and utilizing a user's location. That should be helpful for the future. Lastly, I made a quick display of the city and current temp. There is no styling as of yet, but the guts are there. Extracting and displaying the data should be straight forward and will only require a quick review of JSON. The design aspect will probably take much longer, but I'll have fun letting possible ideas percolate. Signing off. 
+
+### Day 5: January 7, 2017
+
+**Today's Progress**: Continued work on weather app. Parsed weather description and applied a title case algorithm. Began styling with center alignment, background weather image, and arial default font. 
+
+**Thoughts:** I spent a bit of time understanding why my syntax wasn't correct when I was coding the algorithm to change the weather description to title case. I was trying to access indivial characters in a javascript string by using the bracket notation, but it wasn't working as I expected. Maybe this is my C habit creeping in or a misunderstanding, either way, I was able to accomplish it through the use of the charAt() function. I am learning little details and reminders about standard javascript objects and prototypes. The reinforcement is positive. Finished my hour with some light styling and an image of an icy Central Park bench for this frigid winter night we have here in Indiana. Weather in Meridian Hills is currently 12 degrees F with clear skies. 
+
+**Link to work:** Creating individual repositories for each project. Will post links soon. 
 <!-- 
 ### Day 0: February 30, 2016 (Example 1)
 ##### (delete me or comment me out)
