@@ -48,3 +48,11 @@
 **Thoughts:** Finished the user stories for this particular project. I forced myself to knock out the bare bones functionality and meet the user story needs before spending any real time on styling. Overall, I'm pleased. I'd much rather have a working product at the end of the day. I can spend hours on design. I may spend tomorrow diving into implementing some more complex CSS styling. One of today good learning moments was the reminder of how powerful global variables can be in js. I was trying to access a variable in a callback function from a getJSON call, but quickly realized it was as simple as referencing the global variable. However, I did learn about the asyncronicity of the getJSON function calls and learned that with an AJAX call I have the ability to set the asyncronicity to false. Alternatively, if able to, I would be able to construct my function calls in the right order within the callback function. 
 
 **Link to work:** Creating individual repositories for each project. Will post links soon. 
+
+### Day 7: January 9, 2017
+
+**Today's Progress**: Started design of weather app in CSS, implemented custom font 
+
+**Thoughts:** Design is hard. I am not a natural artist, but I am going for it with this design. My goal is to implement a design that mimics the Apollo Guidance Navigation computer from the missions in the 60's. I started with a very nice 7-segment display font and skectched out the basic layout of the computer. I'm implementing everything in CSS and seeing how far that takes me. Should be fun. 
+
+**Link to work:** Creating individual repositories for each project. Will post links soon. 
