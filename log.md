@@ -56,3 +56,11 @@
 **Thoughts:** Design is hard. I am not a natural artist, but I am going for it with this design. My goal is to implement a design that mimics the Apollo Guidance Navigation computer from the missions in the 60's. I started with a very nice 7-segment display font and skectched out the basic layout of the computer. I'm implementing everything in CSS and seeing how far that takes me. Should be fun. 
 
 **Link to work:** Creating individual repositories for each project. Will post links soon. 
+
+### Day 8: January 10, 2017
+
+**Today's Progress**: Progress on weather app design, created status lights for temperature, humidity, and pressure; added background; still working the layout 
+
+**Thoughts:** Today was spent mainly on the stylesheet and understanding how layout from scratch works. I'm not using Bootstrap with this project it is forcing me to pay more attention to how a particular layout can be accomplished. I began with a hand sketch of the layout and refer to a photograph of the actual Apollo Guidance Computer (AGC) as I tweak the layout. It's slow going positioning things exactly where I want them while trying to maintain a reasonable approach to the 'proper' way of doing things. For instance, the use of float vs tweaks to the margin and padding to obtain an absolute position. It would be great to get a more experienced designers thoughts of the implementation of the layout. I'll have to reach out to someone upon finishing the first iteration. Overall though, today it is really starting to resemble the original AGC and gave me hope that I'm on the right track. 
+
+**Link to work:** Creating individual repositories for each project. Will post links soon. 
