@@ -64,3 +64,11 @@
 **Thoughts:** Today was spent mainly on the stylesheet and understanding how layout from scratch works. I'm not using Bootstrap with this project it is forcing me to pay more attention to how a particular layout can be accomplished. I began with a hand sketch of the layout and refer to a photograph of the actual Apollo Guidance Computer (AGC) as I tweak the layout. It's slow going positioning things exactly where I want them while trying to maintain a reasonable approach to the 'proper' way of doing things. For instance, the use of float vs tweaks to the margin and padding to obtain an absolute position. It would be great to get a more experienced designers thoughts of the implementation of the layout. I'll have to reach out to someone upon finishing the first iteration. Overall though, today it is really starting to resemble the original AGC and gave me hope that I'm on the right track. 
 
 **Link to work:** Creating individual repositories for each project. Will post links soon. 
+
+### Day 9: January 11, 2017
+
+**Today's Progress**: Implemented node express server, cleaned up layout  
+
+**Thoughts:** Mixed bag of tasks today. The main goal was to get the layout right and position the info boxes above the 7-segment values correctly. I have settled on a solution that looks reasonable, but I want to consult with a CSS person on how I approached the problem and how best to achieve better results. Also, I spun up a quick node server with express to reinforce some concepts from a meetup tonight. Thoughts for the future: implement call to NASA's APOD API for changing background images and incorporate a radar image from another API service. I did test on my phone and I'll have to put some time into improving the mobile view. Also, I want to start with a default location, e.g. New York City, and then update to local weather at user's request. Currently, the mobile version, at least on iOS, does not request permission to access the user's location and the layout never populates. 
+
+**Link to work:** Creating individual repositories for each project. Will post links soon. 
