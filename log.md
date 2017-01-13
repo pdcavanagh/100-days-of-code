@@ -72,3 +72,11 @@
 **Thoughts:** Mixed bag of tasks today. The main goal was to get the layout right and position the info boxes above the 7-segment values correctly. I have settled on a solution that looks reasonable, but I want to consult with a CSS person on how I approached the problem and how best to achieve better results. Also, I spun up a quick node server with express to reinforce some concepts from a meetup tonight. Thoughts for the future: implement call to NASA's APOD API for changing background images and incorporate a radar image from another API service. I did test on my phone and I'll have to put some time into improving the mobile view. Also, I want to start with a default location, e.g. New York City, and then update to local weather at user's request. Currently, the mobile version, at least on iOS, does not request permission to access the user's location and the layout never populates. 
 
 **Link to work:** Creating individual repositories for each project. Will post links soon. 
+
+### Day 10: January 12, 2017
+
+**Today's Progress**: Added current location button and text input for custom location. Added API call to Google geocode for custom location. 
+
+**Thoughts:** I realized that when loading the app in other browsers and on my phone, that the request for location wasn't always consistent. Therefore, I wanted to add a default location and ask the user to input a location and/or submit their current location. The Google Geocode API seems like a good choice due to that fact it can handle all sorts of custom location entries and will return a lat/long that I will use to request weather. 
+
+**Link to work:** Creating individual repositories for each project. Will post links soon. 
