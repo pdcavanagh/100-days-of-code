@@ -80,3 +80,11 @@
 **Thoughts:** I realized that when loading the app in other browsers and on my phone, that the request for location wasn't always consistent. Therefore, I wanted to add a default location and ask the user to input a location and/or submit their current location. The Google Geocode API seems like a good choice due to that fact it can handle all sorts of custom location entries and will return a lat/long that I will use to request weather. 
 
 **Link to work:** Creating individual repositories for each project. Will post links soon. 
+
+### Day 11: January 13, 2017
+
+**Today's Progress**: Finished implementing calls to Google's Geocode API and displaying user entered location weather data, styled buttons, default to New York City weather on load, allow user to request weather at current position through button click. 
+
+**Thoughts:** I'm pleased with the progress today. I have a clean product at the end of it. The app loads and defaults to the weather at New York City and the then the user has the option to enter any location and check their weather (this is cool, I tested with various places around the world and it seems to be working). Additionally, the user can request weather at their current location. This one is a bit trickier. It is straightforward to use the geolocation API to get the current position, but this requires the user's permission. I decided to first present a default that allows the user to see the app and then decide whether or not they would like to submit their location for local weather. The main issues I see for the future are: 1) displaying the correct generic name based on the user's location they entered. Google would return a specific lat/long for a general city and that may correspond to a more specific city than what the user requested. 2) Improve the layout of the numerical values and the info box about the temp, humidity, and pressure. 3) Improve mobile presentation. 
+
+**Link to work:** Creating individual repositories for each project. Will post links soon. 
