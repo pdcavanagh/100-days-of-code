@@ -88,3 +88,11 @@
 **Thoughts:** I'm pleased with the progress today. I have a clean product at the end of it. The app loads and defaults to the weather at New York City and the then the user has the option to enter any location and check their weather (this is cool, I tested with various places around the world and it seems to be working). Additionally, the user can request weather at their current location. This one is a bit trickier. It is straightforward to use the geolocation API to get the current position, but this requires the user's permission. I decided to first present a default that allows the user to see the app and then decide whether or not they would like to submit their location for local weather. The main issues I see for the future are: 1) displaying the correct generic name based on the user's location they entered. Google would return a specific lat/long for a general city and that may correspond to a more specific city than what the user requested. 2) Improve the layout of the numerical values and the info box about the temp, humidity, and pressure. 3) Improve mobile presentation. 
 
 **Link to work:** Creating individual repositories for each project. Will post links soon. 
+
+### Day 12: January 14, 2017
+
+**Today's Progress**: Switched gears and started a nice project, wiki-viewer. Setup repository, node server, and example Wikipedia API calls. Tested tree traversal in javascript for JSON data. 
+
+**Thoughts:** Working more with API calls and loving it. Each time I get to examine how other sites are implementing their API and how to interface. Ran into an interesting issue with Wiki's API, there is a same origin problem with XMLHTTP requests that seems to plague many API calls. This was solved by adding a callback to my query. I'll have to investigate further and maybe write something up on this one. Happy to be implementing some basic tree traversal in javascript. It makes me practice my CS fundamentals moreso than UI layout.  
+
+**Link to work:** Creating individual repositories for each project. Will post links soon. 
