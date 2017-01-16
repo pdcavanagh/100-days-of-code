@@ -96,3 +96,11 @@
 **Thoughts:** Working more with API calls and loving it. Each time I get to examine how other sites are implementing their API and how to interface. Ran into an interesting issue with Wiki's API, there is a same origin problem with XMLHTTP requests that seems to plague many API calls. This was solved by adding a callback to my query. I'll have to investigate further and maybe write something up on this one. Happy to be implementing some basic tree traversal in javascript. It makes me practice my CS fundamentals moreso than UI layout.  
 
 **Link to work:** Creating individual repositories for each project. Will post links soon. 
+
+### Day 13: January 15, 2017
+
+**Today's Progress**: Finished Wikipedia search API calls and display results, implemented random Wiki article button that loads article 
+
+**Thoughts:** The goal today was to finish the user stories for this project. Goal: accomplished. No styling on the page, but I have a function search for Wikipedia that displays the title, description, and link to the top 10 relevant sites. Also, there is a random article button that directs to a random Wiki article. The API has it's intricacies and I spent time exploring the docs. The API sandbox was helpful at examining the parameters for API calls and expected data. The random page button required two API calls, one to retrieve an article ID and another to get the url. This may be able to be done in two, but it works for now. Happy to be on day 13 of the challenge and going strong. Sleepy, but happy. 
+
+**Link to work:** Creating individual repositories for each project. Will post links soon. This will get done. I promise. :) 
