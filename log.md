@@ -104,3 +104,9 @@
 **Thoughts:** The goal today was to finish the user stories for this project. Goal: accomplished. No styling on the page, but I have a functional search for Wikipedia that displays the title, description, and link to the top 10 relevant sites. Also, there is a random article button that directs to a random Wiki article. The API has its intricacies and I spent time exploring the docs. The API sandbox was helpful at examining the parameters for API calls and expected data. The random page button required two API calls, one to retrieve an article ID and another to get the url. This may be able to be done in two, but it works for now. Happy to be on day 13 of the challenge and going strong. Sleepy, but happy. 
 
 **Link to work:** Creating individual repositories for each project. Will post links soon. This will get done. I promise. :) 
+
+### Day 14: January 16, 2017
+
+**Today's Progress**: Scripted a quick tool to display a plot of data from the Lunar Reconnaisance Orbiter LAMP instrument using Python, matplotlib, and the python package fitsio. 
+
+**Thoughts:** Today was a definite context switch from the work I'd been doing with javascript, but I had been spending some time refamiliarizing myself with the dataset and wanted to use python. I have used python before so the learning curve isn't too high, but I did have to spend time adjusting to syntax differences. I'm working with NASA PDS for the data and all the data files are in the FITS format. The fitsio package was easy to install with pip and I was quickly up and running. The first goal was to plot up some data and matplotlib allowed me to quickly do that using the plot() and show() functions. I'll be periodically working on this project in order to build up scripts that allow me to examine various data from the lunar surface. 
