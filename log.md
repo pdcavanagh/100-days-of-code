@@ -110,3 +110,11 @@
 **Today's Progress**: Scripted a quick tool to display a plot of data from the Lunar Reconnaisance Orbiter LAMP instrument using Python, matplotlib, and the python package fitsio. 
 
 **Thoughts:** Today was a definite context switch from the work I'd been doing with javascript, but I had been spending some time refamiliarizing myself with the dataset and wanted to use python. I have used python before so the learning curve isn't too high, but I did have to spend time adjusting to syntax differences. I'm working with NASA PDS for the data and all the data files are in the FITS format. The fitsio package was easy to install with pip and I was quickly up and running. The first goal was to plot up some data and matplotlib allowed me to quickly do that using the plot() and show() functions. I'll be periodically working on this project in order to build up scripts that allow me to examine various data from the lunar surface. 
+
+### Day 15: January 17, 2017
+
+**Today's Progress**: Returned to work on wiki search app: Styled search box, return keypress now begins search and returns results 
+
+**Thoughts:** More styling work today and digging into CSS features. Found a great guide to styling a better search box that I copied most of the current CSS. It has some nice features such as the use of transitions when selecting the search box (it slowly fades from the dark-gray background to a white background). Also, became more familiar with the active and focus CSS selectors which were employed to allow the search box to remain with the white background after clicking on it and even when the mouse has moved away. 
+
+**Link to work:** http://codepen.io/pdcavanagh/pen/YNpdmP 
