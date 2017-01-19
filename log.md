@@ -118,3 +118,11 @@
 **Thoughts:** More styling work today and digging into CSS features. Found a great guide to styling a better search box that I copied most of the current CSS. It has some nice features such as the use of transitions when selecting the search box (it slowly fades from the dark-gray background to a white background). Also, became more familiar with the active and focus CSS selectors which were employed to allow the search box to remain with the white background after clicking on it and even when the mouse has moved away. 
 
 **Link to work:** http://codepen.io/pdcavanagh/pen/YNpdmP 
+
+### Day 16: January 18, 2017
+
+**Today's Progress**: Wikipedia search app: new font, centered buttons, experimented with canvas and background animation 
+
+**Thoughts:** Today was more exploratory than anything. I find myself amazed by what HTML5 canvas and CSS are capable of doing. Fun with tiedye codepen background animations and js canvas math art. I did find a nice retro computer font from Google: VT323. And there's a new repo with links to interesting references I hear about at meetups and lectures: [dev-notes](../dev-notes/) 
+
+**Link to work:** http://codepen.io/pdcavanagh/pen/YNpdmP [github](../wiki-viewer/)
