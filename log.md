@@ -123,6 +123,6 @@
 
 **Today's Progress**: Wikipedia search app: new font, centered buttons, experimented with canvas and background animation 
 
-**Thoughts:** Today was more exploratory than anything. I find myself amazed by what HTML5 canvas and CSS are capable of doing. Fun with tiedye codepen background animations and js canvas math art. I did find a nice retro computer font from Google: VT323. And there's a new repo with links to interesting references I hear about at meetups and lectures: [dev-notes](../dev-notes/) 
+**Thoughts:** Today was more exploratory than anything. I find myself amazed by what HTML5 canvas and CSS are capable of doing. Fun with tiedye codepen background animations and js canvas math art. I did find a nice retro computer font from Google: VT323. And there's a new repo with links to interesting references I hear about at meetups and lectures: [dev-notes](https://github.com/pdcavanagh/dev-notes) 
 
-**Link to work:** http://codepen.io/pdcavanagh/pen/YNpdmP [github](../wiki-viewer/)
+**Link to work:** http://codepen.io/pdcavanagh/pen/YNpdmP [wiki-viewer](https://github.com/pdcavanagh/wiki-viewer)
