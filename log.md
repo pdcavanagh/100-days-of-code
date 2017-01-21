@@ -131,6 +131,24 @@
 
 **Today's Progress**: Wikipedia search app: updated font for headline and search results, added transitions for buttons, cleaned up layout of results 
 
-**Thoughts:** I wanted a clean design today. I got rid of the exploration code from yesterday and just wanted to implement a simple coherent design that would focus on the functionality of the app. I used [Paletton](http://www.paletton.com) to create a nice combination of teal colors for the design. Updated the font to Cormorant Garamond to elevate the site to more of an bookish feel. Also, I came across an interesting problem when I loaded the site in Safari. It turns out using HTML5 input type=search element ignores most CSS styling. I found a workaround for this by setting `-webkit-appearance: none;`. It reinforced the need for testing on multiple browsers. The app has a clean feel now and looks decent on mobile, although I plan to look more into defining mobile presentation without the use of frameworks soon. 
+**Thoughts:** I wanted a clean design today. I got rid of the exploration code from yesterday and just wanted to implement a simple coherent design that would focus on the functionality of the app. I used [Paletton](http://www.paletton.com) to create a nice combination of teal colors for the design. Updated the font to Cormorant Garamond to elevate the site to more of an bookish feel. Also, I came across an interesting problem when I loaded the site in Safari. It turns out using HTML5 input type=search element ignores most CSS styling. I found a workaround for this by setting `-webkit-appearance: none;` [(Antenna.io blog)](http://antenna.io/blog/2013/02/remove-default-input-styling-from-webkit). It reinforced the need for testing on multiple browsers. The app has a clean feel now and looks decent on mobile, although I plan to look more into defining mobile presentation without the use of frameworks soon. 
+
+**Link to work:** http://codepen.io/pdcavanagh/pen/YNpdmP [wiki-viewer](https://github.com/pdcavanagh/wiki-viewer)
+
+### Day 18: January 20, 2017
+
+**Today's Progress**: Wikipedia search app: Improved mobile presentation and UX through use of viewport and better understanding of iOS webkit display, simplified search and removed submit button
+
+**Thoughts:** I wanted a good mobile experience with this app and spent tonight switching between the Chrome and Safari presentation on the computer and the mobile presentation on the iPhone. A simple usability test with my wife revealed multiple issues that could be improved including: fluid UX from the time they click the search box, enter the search term, and submit. Originally, the user would have to enter the search term, type it in, and then manually close the soft keyboard. I wanted the fluid UX of the user entering the search term, selecting the Go or Search button, and the keyboard automatically disappears. I accomplished this by setting the `<input type=search ...` within a form with an action. I didn't want to handle the action through an HTML method (I handle the search through javascript) so I ignored the default action:
+
+```
+$("body").on("submit", function(e)
+{
+  e.preventDefault();
+})
+``` 
+iOS automatically understood this and appropriatley added a Search button to the soft keyboard. Lastly, I wanted to keyboard to disappear after the search was entered and submited. This was accomplished by using the `blur()` function on the search input element: `document.activeElement.blur();`
+
+The mobile presentation is very fluid now and much improved. One last note, originally when the user selected the search box, the iOS browser would zoom in and this affected the view. I started to research how to reset viewport, but learned that by setting the font size >= 16px, the browser no longer zooms in and the viewport is preserved. Great trick and much cleaner than hacking the viewport settings with javascript. 
 
 **Link to work:** http://codepen.io/pdcavanagh/pen/YNpdmP [wiki-viewer](https://github.com/pdcavanagh/wiki-viewer)
