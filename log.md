@@ -152,3 +152,11 @@ iOS automatically understood this and appropriatley added a Search button to the
 The mobile presentation is very fluid now and much improved. One last note, originally when the user selected the search box, the iOS browser would zoom in and this affected the view. I started to research how to reset viewport, but learned that by setting the font size >= 16px, the browser no longer zooms in and the viewport is preserved. Great trick and much cleaner than hacking the viewport settings with javascript. 
 
 **Link to work:** http://codepen.io/pdcavanagh/pen/YNpdmP [wiki-viewer](https://github.com/pdcavanagh/wiki-viewer)
+
+### Day 19: January 21, 2017
+
+**Today's Progress**: Lunar data app: Improved understanding of fitsio python library, displaying plots of spectral data from a FITS file, printing header information 
+
+**Thoughts:** Today, I wrapped up the wikipeadia search app and returned to my work on using python to parse data from NASA's Lunar Reconnaissance Orbiter and the Lyman Alpha Mapping Project. There are multiple levels of complexity for this project: 1) the technical implementation of python scripting to parse and work with the data, 2) the understanding of the data formatting itself, and 3) the use of the data. I will be focusing on the first two for this project. My goal is to develop a series of scripts that I can use to effectively interpret the data and track relevant information such as housekeeping from the FITS files. Additionally, I'd love to create a web app that presents the data in a useable way and presents the telemetry in a way that mimics the spacecraft. I'll have to refine my thoughts and goals for this as I progress. 
+
+**Link to work:** Coming soon. 
