@@ -160,3 +160,9 @@ The mobile presentation is very fluid now and much improved. One last note, orig
 **Thoughts:** Today, I wrapped up the wikipeadia search app and returned to my work on using python to parse data from NASA's Lunar Reconnaissance Orbiter and the Lyman Alpha Mapping Project. There are multiple levels of complexity for this project: 1) the technical implementation of python scripting to parse and work with the data, 2) the understanding of the data formatting itself, and 3) the use of the data. I will be focusing on the first two for this project. My goal is to develop a series of scripts that I can use to effectively interpret the data and track relevant information such as housekeeping from the FITS files. Additionally, I'd love to create a web app that presents the data in a useable way and presents the telemetry in a way that mimics the spacecraft. I'll have to refine my thoughts and goals for this as I progress. 
 
 **Link to work:** Coming soon. 
+
+### Day 20: January 22, 2017
+
+**Today's Progress**: Weather app: fixed the layout and cleaned up CSS, added meta viewport tag to properly display on mobile 
+
+**Thoughts:** After a wonderfully productive meeting with some folks at a coffeeshop to talk tech, I learned more about proper CSS structuring and the concept of the inverted triangle and specificity points. I used that info to clean up the layout of the weather app and get the labels and data values exactly where I wanted them. Also, learned some nice tricks for working with Chrome's developer tools and adjusting the stying in realtime to achieve the desired effect. Excited about the community and future projects to come. Onward. 
