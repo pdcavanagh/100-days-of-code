@@ -171,4 +171,4 @@ The mobile presentation is very fluid now and much improved. One last note, orig
 
 **Today's Progress**: Clean install of Ionic framework 
 
-**Thoughts:** This is one of those time where it's like, "Oh, this will be fast." No. I spent a good part of my evening tracking down dependency errors and uninstalling and reinstalling various parts of node, npm, cordova, and ionic. 
+**Thoughts:** This is one of those time where it's like, "Oh, this will be fast." No. I spent a good part of my evening tracking down dependency errors and uninstalling and reinstalling various parts of node, npm, cordova, and ionic. It worked though! 
