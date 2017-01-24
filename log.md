@@ -166,3 +166,9 @@ The mobile presentation is very fluid now and much improved. One last note, orig
 **Today's Progress**: Weather app: fixed the layout and cleaned up CSS, added meta viewport tag to properly display on mobile 
 
 **Thoughts:** After a wonderfully productive meeting with some folks at a coffeeshop to talk tech, I learned more about proper CSS structuring and the concept of the inverted triangle and specificity points. I used that info to clean up the layout of the weather app and get the labels and data values exactly where I wanted them. Also, learned some nice tricks for working with Chrome's developer tools and adjusting the stying in realtime to achieve the desired effect. Excited about the community and future projects to come. Onward. 
+
+### Day 21: January 23, 2017
+
+**Today's Progress**: Clean install of Ionic framework 
+
+**Thoughts:** This is one of those time where it's like, "Oh, this will be fast." No. I spent a good part of my evening tracking down dependency errors and uninstalling and reinstalling various parts of node, npm, cordova, and ionic. 
