@@ -172,3 +172,9 @@ The mobile presentation is very fluid now and much improved. One last note, orig
 **Today's Progress**: Clean install of Ionic framework 
 
 **Thoughts:** This is one of those time where it's like, "Oh, this will be fast." No. I spent a good part of my evening tracking down dependency errors and uninstalling and reinstalling various parts of node, npm, cordova, and ionic. It worked though! 
+
+### Day 22: January 24, 2017
+
+**Today's Progress**: Wrote python function to display results of numerical models to tables 
+
+**Thoughts:** Today's work was related to an idea I have to take data from models that I've created and present the results in an elegant way on the web. This in theory would not only be done as a pretty presentation, but also allow the user to interact with and potentially change the data. The models I wrote are in python using NumPy and some PuLP, but the results could be generic. Since the models are in python, I envision using Django or a similiar framework would be best suited to serve the data if it were a web app. I'm thinking the backend would consist of all the modeling scripts and I'd choose whatever framework was best suited for the app, python or not. This task today was to take existing data, that I would normal use to create figures in excel, and create standard html tables. I found a python library, HTML.py, that did just this. Although, it does look like it was written ages ago (I had to manually alter the library to make the element tags lowercase). I'll put some more thought into exactly how I'd like this project to continue, but for now I have a working html file output of my results. 
