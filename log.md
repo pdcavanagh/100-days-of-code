@@ -184,3 +184,9 @@ The mobile presentation is very fluid now and much improved. One last note, orig
 **Today's Progress**: Data presentation app w/ D3: setup express server for web app, began sass file for styling, began researching D3 graphics to display table and charts 
 
 **Thoughts:** More work on the data presentation project today. Thinking this will be an example presentation of using D3 to display complex data and allow user interaction to explore the data. Brainstorming about best ways to accomplish this from having the origin of the data be the python scripts and the end result being D3 graphics on the web. Considering exporting data from the python scripts as simple CSV files or JSON data and picking up with javascript and D3 to display. This may be the most straightforward approach and allows for more flexibility than templating the html in python.
+
+### Day 24: January 26, 2017
+
+**Today's Progress**: Data presentation app w/ D3: began function to write json object of results 
+
+**Thoughts:** Slow going today as I think through and structure the data into JSON. Python has built in libraries to handle dumping standard python structures JSON. Mainly my time was spent developing the right algorithm to go through the results of my model and build the python data structure and then dump to JSON. Ultimately this will be part of an API to access the data. The returned data will be a JSON object and I'll use that for the data visualization. 
