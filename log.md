@@ -190,3 +190,9 @@ The mobile presentation is very fluid now and much improved. One last note, orig
 **Today's Progress**: Data presentation app w/ D3: began function to write json object of results 
 
 **Thoughts:** Slow going today as I think through and structure the data into JSON. Python has built in libraries to handle dumping standard python structures JSON. Mainly my time was spent developing the right algorithm to go through the results of my model and build the python data structure and then dump to JSON. Ultimately this will be part of an API to access the data. The returned data will be a JSON object and I'll use that for the data visualization. 
+
+### Day 25: January 27, 2017
+
+**Today's Progress**: Data presentation app w/ D3: completed basic function to write json object of results 
+
+**Thoughts:** The trivial things often take the longest, it seems. Today was spent reminding myself to read the errors and remind myself about the data structures and behaviors of the technology with which I am currently working. Python has some great structures with lists, tuples, and dict that allow for some very fast and efficient structuring of data. I was able to decide on a structure for my data and iterate through all of the results building a python data model and once completed this easily translated to the JSON object I wanted. Next up will be to decode the JSON object into a meaningful visualization. Back to js land soon. 
