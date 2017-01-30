@@ -202,3 +202,11 @@ The mobile presentation is very fluid now and much improved. One last note, orig
 **Today's Progress**: Wrote function to write the json results to the javascript console 
 
 **Thoughts:** Today, I challenged myself to try to start writing the routines needed to digest JSON data in javascript without the use of jQuery. At first I attempted algorithms that would be able to traverse what is essentially a tree, but found that without knowledge of what the data types in the JSON object were, it would be difficult to write a universal function for this. I suspect it could be accomplished by testing for the data type and having cases based on that knowledge. For my purposes, since I know the structure of the JSON file to begin with, I was able to hard code the traversal of the data and print the results to the console. Now that I have access to the data, I can decide how best to use it for visualization and presentation. Avoiding jQuery may add additional complexity, but I am appreciating the practice in researching javascript data structure methods and designing algorithms. Next task will be coding a few examples plots and visualizations using the data. After that is complete, I have options maybe: 1) implement a REST API for the python models, 2) more exhaustive design on visualization, 3) user interaction on the front-end.  
+
+### Day 27: January 29, 2017
+
+**Today's Progress**: Completed function to display basic bar graph with relevant data from JSON file 
+
+**Thoughts:** I feel I made great progress today. After going slow the past few days, I am much more comfortable with the vanilla javascript needed to pull apart my JSON file and manipulate the DOM with the new data. I pulled down a quick bar graph tutorial from Mike Bostock [Let's Make a Bar Chart](https://bost.ocks.org/mike/bar/1/) and was able to customize it using relevant data from my JSON file. I'll be digging more into D3 its potential in the near future to really make the data pop. Moving forward.
+
+**Link to work:** [pyrocks-web](https://github.com/pdcavanagh/pyrocks-web)
