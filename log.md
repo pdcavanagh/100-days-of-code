@@ -210,3 +210,11 @@ The mobile presentation is very fluid now and much improved. One last note, orig
 **Thoughts:** I feel I made great progress today. After going slow the past few days, I am much more comfortable with the vanilla javascript needed to pull apart my JSON file and manipulate the DOM with the new data. I pulled down a quick bar graph tutorial from Mike Bostock [Let's Make a Bar Chart](https://bost.ocks.org/mike/bar/1/) and was able to customize it using relevant data from my JSON file. I'll be digging more into D3 its potential in the near future to really make the data pop. Moving forward.
 
 **Link to work:** [pyrocks-web](https://github.com/pdcavanagh/pyrocks-web)
+
+### Day 28: January 30, 2017
+
+**Today's Progress**: Updated display of data to a horizontal bar graph implemented with svg and d3.js 
+
+**Thoughts:** Today was more of an introduction to some of the feature of d3 and svg. New syntax and the ability to handle groups of elements using selectors. Rough presentation of data in a bar graph format, but I can see the potential. I'll need to check out some galleries of svg graphics now that I have enough knowledge to be dangerous. 
+
+**Link to work:** [pyrocks-web](https://github.com/pdcavanagh/pyrocks-web)
