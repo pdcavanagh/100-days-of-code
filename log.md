@@ -218,3 +218,10 @@ The mobile presentation is very fluid now and much improved. One last note, orig
 **Thoughts:** Today was more of an introduction to some of the feature of d3 and svg. New syntax and the ability to handle groups of elements using selectors. Rough presentation of data in a bar graph format, but I can see the potential. I'll need to check out some galleries of svg graphics now that I have enough knowledge to be dangerous. 
 
 **Link to work:** [pyrocks-web](https://github.com/pdcavanagh/pyrocks-web)
+
+### Day 29: January 31, 2017
+
+**Today's Progress**: Returned to finishing a side project web site for a conference 
+
+**Thoughts:** Mainly cleaning up code and removing broken/unneeded code. It's amazing how quickly frameworks and helper js code ages and is no longer useful. A good mix of vanilla and clean minimal frame use is key. 
+
