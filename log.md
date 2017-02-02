@@ -225,3 +225,11 @@ The mobile presentation is very fluid now and much improved. One last note, orig
 
 **Thoughts:** Mainly cleaning up code and removing broken/unneeded code. It's amazing how quickly frameworks and helper js code ages and is no longer useful. A good mix of vanilla and clean minimal frame use is key. 
 
+### Day 30: February 1, 2017
+
+**Today's Progress**: Markdown version of resume committed to github 
+
+**Thoughts:** Today's progress sums it up. Simple work, but a task that needed to be done. I want to also set up a repo with projects that serves as a portfolio. This may just be better served on my website. Either way, I need to organize my list of projects for moving forward and have a plan on how I want to use this time. It's day 30. Time moves fast. Let's find some challenges. 
+
+**Link to work:** [resume](https://github.com/pdcavanagh/resume)
+
