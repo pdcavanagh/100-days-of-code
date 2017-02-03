@@ -233,3 +233,11 @@ The mobile presentation is very fluid now and much improved. One last note, orig
 
 **Link to work:** [resume](https://github.com/pdcavanagh/resume)
 
+### Day 31: February 2, 2017
+
+**Today's Progress**: Deployed weather app to heroku, troubleshooting  
+
+**Thoughts:** I wanted to update my portfolio site with some working live web apps such as the weather watcher app I built. I serve my portfolio site using node on heroku and returned there to serve a few of the projects that will have a backend. Sped up quickly on the deployment procedure and reminded myself of `heroku logs`. I was getting crashing errors owhen starting the server and had to remind myself to include a `Procfile` that contained the line `web: node index.js` telling heroku how to handle my node server. Simple fix and hopefully one I will more quickly remember next time. After that, I had the challenge of the OpenWeatherApp not having a free sercure API. I'm investigating other weather APIs and may use Dark Sky API instead. 
+
+**Link to work:** [weather-watcher](https://weather-watcher.herokuapp.com)
+
