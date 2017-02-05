@@ -241,3 +241,19 @@ The mobile presentation is very fluid now and much improved. One last note, orig
 
 **Link to work:** [weather-watcher](https://weather-watcher.herokuapp.com)
 
+### Day 32: February 3, 2017
+
+**Today's Progress**: Created backend code to serve 3rd party API data, secures API KEY information from frontend 
+
+**Thoughts:** Good progress tonight. Used a new node module `request` to handle the 3rd party API call. The asynchronous nature of the web still throws me off from time to time. I find myself wanting to return values, constantly running into undefined, and then reminding myself of the timing. Put together the bare bones of a REST API with node though. That will be very helpful in the near future. I'll have to add a CRUD web app with a node REST API backend add to my project list.  
+
+**Link to work:** [weather-watcher](https://weather-watcher.herokuapp.com)
+
+### Day 33: February 4, 2017
+
+**Today's Progress**: Finished backend code to serve location and weather data from 3rd party APIs to frontend through GET requests 
+
+**Thoughts:** It's nice to have a working version that now secures my API keys. I still run into issues with the asynchronous nature of javascript and the web. I find myself wanting to have too many nested calls. I wonder if there are similiar things to MUTEXs and blocking behavior in JS. I'll reach out to some folks and ask. Next tasks for this project: Fix the current location functionality on mobile (iOS has no response), also make custom location submit button and form submit to make the soft keyboard automatically send the request and zoom out to view of full app. 
+
+**Link to work:** [weather-watcher](https://weather-watcher.herokuapp.com)
+
