@@ -257,3 +257,11 @@ The mobile presentation is very fluid now and much improved. One last note, orig
 
 **Link to work:** [weather-watcher](https://weather-watcher.herokuapp.com)
 
+### Day 34: February 5, 2017
+
+**Today's Progress**: Weather app: cleaned up code, eliminated global variables 
+
+**Thoughts:** Cleared up some confusion over use of callbacks in javascript and seperated myself from imperative view of the programming world. The callbacks are a nice element of functional programming that is especially helpful given the asynchronous nature of javascript. I learned of the 'callback hell' that many javascript folks encounter and this idea of extreme nesting is to be expected. It seems that proper function seperation and naming, as well as general organization and readability are the best practices to solve this. Another friend suggested looking into promises and the concepts of await and async that will be formally introduced in ES7. Next tasks for this project: Fix the current location functionality on mobile (iOS has no response), also make custom location submit button and form submit to make the soft keyboard automatically send the request and zoom out to view of full app. 
+
+**Link to work:** [weather-watcher](https://weather-watcher.herokuapp.com)
+
