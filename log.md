@@ -265,3 +265,14 @@ The mobile presentation is very fluid now and much improved. One last note, orig
 
 **Link to work:** [weather-watcher](https://weather-watcher.herokuapp.com)
 
+### Day 35: February 6, 2017
+
+**Today's Progress**: Coding exercise solving Fibonacci even number problem, started Twitch.tv API project 
+
+**Thoughts:** Some exercise in math and translating to code. Also, starting another project to add to the fire. 
+
+### Day 36: February 7, 2017
+
+**Today's Progress**: Completed another Project Euler problem focused on prime number factorials; implemented API calls for twitch app to get stream status and channel logo information 
+
+**Thoughts:** More thoughts with more time. Sleep beckons. 
