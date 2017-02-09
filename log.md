@@ -276,3 +276,9 @@ The mobile presentation is very fluid now and much improved. One last note, orig
 **Today's Progress**: Completed another Project Euler problem focused on prime number factorials; implemented API calls for twitch app to get stream status and channel logo information 
 
 **Thoughts:** More thoughts with more time. Sleep beckons. 
+
+### Day 37: February 8, 2017
+
+**Today's Progress**: Completed a coding exercise solving a permutations of palindrone problem; progress on twitch app: added link to twitch stream when channel is online (generalized so that the js creates the elements for any username channel) 
+
+**Thoughts:** Lately, I've been beginning my nightly sessions with a warmup, either a Project Euler problem or a problem from Cracking the Coding Interview book, and then moving on to my design and development work. This is a really nice balance of refining my problem solving and algorithms and then being more creative and research oriented as I build out apps. If only there were more time. 
