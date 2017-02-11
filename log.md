@@ -287,3 +287,8 @@ The mobile presentation is very fluid now and much improved. One last note, orig
 
 **Today's Progress**: Twitch app: Wrote general functions to make API calls and generate HTML. Functions take username, returns user ID, then checks status of streams for that user and generates HTML with user logo and status of stream. 
 
+### Day 39: February 10, 2017
+
+**Today's Progress**: Updating personal portfolio site; created styled list for technologies used on various projects; researching other portfolio designs
+
+**Thoughts:** Spending more and more time coding every night and less time on this log. I suppose that's a good thing. I have an idea to dedicate time to a weekly blog post that will be much more structured and thought out. Good night. 
