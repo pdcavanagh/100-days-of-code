@@ -292,3 +292,15 @@ The mobile presentation is very fluid now and much improved. One last note, orig
 **Today's Progress**: Updating personal portfolio site; created styled list for technologies used on various projects; researching other portfolio designs
 
 **Thoughts:** Spending more and more time coding every night and less time on this log. I suppose that's a good thing. I have an idea to dedicate time to a weekly blog post that will be much more structured and thought out. Good night. 
+
+### Day 40: February 11, 2017
+
+**Today's Progress**: Created small canvas objects, rectangles, triangles, etc. to experiment with new portfolio design
+
+**Thoughts:** Ramping up on animations in the browser and understanding differences between javascript and CSS based animations. I've come across some amazing portfolio pages and slowly peeling back the design of many of them. More and more I find myself focused on the front end and visual aspect. It's a different mindset than data and algorithms, but just as challenging. 
+
+### Day 41: February 13, 2017
+
+**Today's Progress**: Styling the twitch app and discovering CSS3 filtering 
+
+**Thoughts:** Lost a day of coding due to slicing my finger and needing stitches. Not fun, but back at it tonight. Dug back into the Twitch app to give it some polish and explore some of CSS filtering options. Enjoying to process of looking for inspiration and recreating what I like. 
