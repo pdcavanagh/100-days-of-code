@@ -304,3 +304,9 @@ The mobile presentation is very fluid now and much improved. One last note, orig
 **Today's Progress**: Styling the twitch app and discovering CSS3 filtering 
 
 **Thoughts:** Lost a day of coding due to slicing my finger and needing stitches. Not fun, but back at it tonight. Dug back into the Twitch app to give it some polish and explore some of CSS filtering options. Enjoying to process of looking for inspiration and recreating what I like. 
+
+### Day 42: February 14, 2017
+
+**Today's Progress**: Made SVG test logo 
+
+**Thoughts:** Learning more and more about design and the capabilities of SVG, CSS, and animation. Working more in Illustrator and understanding the abilities of SVG. Plan to update portfolio site with SVG logo, background, and some animations for the initial view. 
