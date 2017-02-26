@@ -337,8 +337,8 @@ The mobile presentation is very fluid now and much improved. One last note, orig
 
 ### Day 48-53: February 20-25, 2017
 
-** Progress **: React websocket app: Finished implementation of React websocket application, broke down web app into React components, posted to github; Crypt app: updated button to toggle encrypt/decrypt, added form validation to prevent empty submissions, styled returned message text
+**Progress**: React websocket app: Finished implementation of React websocket application, broke down web app into React components, posted to github; Crypt app: updated button to toggle encrypt/decrypt, added form validation to prevent empty submissions, styled returned message text
 
-** Thoughts **: Productive as ever, coding everyday and making progress on projects. Finding I leave little time to update this log. I'll attempt to do more of that, perhaps in the form of ongoing notes as I work.
+**Thoughts**: Productive as ever, coding everyday and making progress on projects. Finding I leave little time to update this log. I'll attempt to do more of that, perhaps in the form of ongoing notes as I work.
 
-** Links to work **: [socket-chat](http://www.github.com/pdcavanagh/socket-chat)
+**Links to work**: [socket-chat](http://www.github.com/pdcavanagh/socket-chat)
