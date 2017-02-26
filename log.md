@@ -310,3 +310,35 @@ The mobile presentation is very fluid now and much improved. One last note, orig
 **Today's Progress**: Made SVG test logo 
 
 **Thoughts:** Learning more and more about design and the capabilities of SVG, CSS, and animation. Working more in Illustrator and understanding the abilities of SVG. Plan to update portfolio site with SVG logo, background, and some animations for the initial view. 
+
+### Day 43: February 15, 2017
+
+**Today's Progress**: Started project to put UI on node package for encryption 
+
+### Day 44: February 16, 2017
+
+**Today's Progress**: Crypt: created form for user input of messages and secret key, submits to backend node server, delivers encrypted message to frontend; Sockets: building a web chat using node and sockets.io 
+
+### Day 45: February 17, 2017
+
+**Today's Progress**: Created websockets chat client using Node.js and socket.io 
+
+### Day 46: February 18, 2017
+
+**Today's Progress**: React boilerplate setup 
+
+### Day 47: February 19, 2017
+
+**Today's Progress**: Websockets / React app: started in on converting working chat client to React based, thinking through component design 
+
+### Day 47: February 19, 2017
+
+**Today's Progress**: Websockets / React app: started in on converting working chat client to React based, thinking through component design 
+
+### Day 48-53: February 20-25, 2017
+
+** Progress **: React websocket app: Finished implementation of React websocket application, broke down web app into React components, posted to github; Crypt app: updated button to toggle encrypt/decrypt, added form validation to prevent empty submissions, styled returned message text
+
+** Thoughts **: Productive as ever, coding everyday and making progress on projects. Finding I leave little time to update this log. I'll attempt to do more of that, perhaps in the form of ongoing notes as I work.
+
+** Links to work **: [socket-chat](http://www.github.com/pdcavanagh/socket-chat)
