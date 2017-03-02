@@ -335,10 +335,26 @@ The mobile presentation is very fluid now and much improved. One last note, orig
 
 **Today's Progress**: Websockets / React app: started in on converting working chat client to React based, thinking through component design 
 
-### Day 48-53: February 20-25, 2017
+### Day 48-54: February 20-26, 2017
 
 **Progress**: React websocket app: Finished implementation of React websocket application, broke down web app into React components, posted to github; Crypt app: updated button to toggle encrypt/decrypt, added form validation to prevent empty submissions, styled returned message text
 
 **Thoughts**: Productive as ever, coding everyday and making progress on projects. Finding I leave little time to update this log. I'll attempt to do more of that, perhaps in the form of ongoing notes as I work.
 
 **Links to work**: [socket-chat](http://www.github.com/pdcavanagh/socket-chat)
+
+### Day 55-56: February 27-28, 2017
+
+**Progress**: Cleaned up code for encryption app and websocket chat. Created heroku apps and deployed code. Added new font to chat app.   
+
+**Links to work**: [socket-chat](http://www.github.com/pdcavanagh/socket-chat)
+[crypt](https://crypting.herokuapp.com)
+
+### Day 57: March 1, 2017
+
+**Progress**: 
+-Reading and interview puzzle study
+-Review of C++ syntax
+-C# research, excited for Microsoft's VS2017 launch next week! I'll try out VS Code soon and testrun studio for C# dev on mac.
+
+**Thoughts**: Need a new project or possibly revisit one I've been working on here. I'll think on this one. Perhaps it's a good time to review this log. A C# project would be a nice change of pace and would get me up to speed with the language. Ideally, I could still code up a front end with js to stay fresh there. I'll sleep on it ;).
