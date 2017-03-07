@@ -358,3 +358,36 @@ The mobile presentation is very fluid now and much improved. One last note, orig
 -C# research, excited for Microsoft's VS2017 launch next week! I'll try out VS Code soon and testrun studio for C# dev on mac.
 
 **Thoughts**: Need a new project or possibly revisit one I've been working on here. I'll think on this one. Perhaps it's a good time to review this log. A C# project would be a nice change of pace and would get me up to speed with the language. Ideally, I could still code up a front end with js to stay fresh there. I'll sleep on it ;).
+
+### Day 58: March 2, 2017
+
+**Progress**: 
+-Installation of Visual Studio for Mac (Xaramin install is a beast, btw)
+-Review of C# github repos
+-Review of C# syntax
+
+### Day 59: March 3, 2017
+
+**Progress**: 
+-After the beastly VS installation, turns out it does work with < MacOSX 10.11 and ... I can't upgrade to 10.11 because Macbook Pro is too old. Scratched that idea and loaded VS on a remote machine.
+-Reviewing basic C# syntax. Feels very comfortable and close to C++, but with a nice mix in of some javascript. I love the builtin functions with types such as `String.Length, String.ToUpper, String.Replace` etc. Also, the use of string interpolation is a nice touch, e.g. `string greeting = $"Hello, {name}!`. 
+-Started reviewing Microsoft's documentation and introduction to C# and .NET [Link](https://www.microsoft.com/net/tutorials/csharp/getting-started)
+
+### Day 60: March 4, 2017
+
+**Progress**: 
+-Began Microsoft WPF tutorial to build expense report list application
+-Explored the relationships between the C# code and the xaml files
+-Many parallels to creating UI in javascript and css
+
+### Day 61: March 5, 2017
+
+**Progress**: 
+-Continued work on expense report application in visual studio, main parts are all there, but debugging the instantiation of a expense report page created after selection of an employee. Will troubleshoot more tomorrow.
+
+### Day 62: March 6, 2017
+
+**Progress**: 
+-Crypt app: added select box to choose encryption algorithm. Currently supports AES, TripleDES, and Rabbit.
+-Updated backend server code with switch to select proper algorithm. 
+-Styled and aligned select box to match design.
