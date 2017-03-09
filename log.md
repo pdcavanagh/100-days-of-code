@@ -397,3 +397,18 @@ The mobile presentation is very fluid now and much improved. One last note, orig
 - Crypt app: added select box to choose encryption algorithm. Currently supports AES, TripleDES, and Rabbit.
 - Updated backend server code with switch to select proper algorithm. 
 - Styled and aligned select box to match design.
+
+### Day 63: March 7, 2017
+
+**Progress**: 
+
+- Updating personal website
+- Added typing animation to title text
+- Added depixelating profile picture
+- Removed Bootstrap grid for portfolio projects, using flex instead
+
+### Day 64: March 8, 2017
+
+**Progress**: 
+
+- Created flex grid of images with text overlay on hover, will modify for portfolio on personal website
